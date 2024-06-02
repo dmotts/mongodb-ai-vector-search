@@ -5,6 +5,7 @@ streamlit
 ## LLMs / embeddings
 openai
 llama-index
+llama-index-embeddings-huggingface
 transformers
 torch
 sentence_transformers
