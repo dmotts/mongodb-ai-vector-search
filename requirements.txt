@@ -1,6 +1,7 @@
 python-dotenv
 pymongo[srv]
 streamlit
+AtlasClient
 
 ## LLMs / embeddings
 openai
