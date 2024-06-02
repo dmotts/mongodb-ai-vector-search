@@ -5,9 +5,8 @@ from urllib.request import urlopen
 import os, sys
 import logging 
 sys.path.insert(0, '../')
-# from llama_index.embeddings import HuggingFaceEmbedding
-# Uncomment the line above and comment the line below if you face an import error
-from llama_index.embeddings.huggingface import HuggingFaceEmbedding
+from llama_index.embeddings import HuggingFaceEmbedding
+# from llama_index.embeddings.huggingface import HuggingFaceEmbedding
 import requests
 
 # Add helper client
