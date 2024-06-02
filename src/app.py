@@ -10,6 +10,15 @@ from llama_index.embeddings.huggingface import HuggingFaceEmbedding
 import requests
 
 # Add helper client
+current_dir = os.getcwd()
+print("Current directory:", current_dir)
+
+# List files in the current directory
+files = os.listdir(current_dir)
+print("Files in the current directory:")
+for file in files:
+    print(file)
+
 from AtlasClient import AtlasClient
 
 # Configure logging
@@ -28,7 +37,7 @@ MODEL_MAPPINGS = {
 def initialize():
     config = dotenv_values(find_dotenv())
 
-    ATLAS_URI = config.get('ATLAS_URI')
+    ATLAS_URI = st.secrets["ATLAS_URI"]
     logging.info(f"ATLAS_URI detected is: {ATLAS_URI}")
 
     if not ATLAS_URI:

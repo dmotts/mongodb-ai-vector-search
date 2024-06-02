@@ -9,3 +9,4 @@ __pycache__/
 .Python
 cache/
 .env
+.streamlit/
