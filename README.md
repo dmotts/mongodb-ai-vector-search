@@ -19,6 +19,14 @@ In the context of this movie recommender project, Atlas Vector Search is used to
 - **User Interaction**: Offers an intuitive user interface through Streamlit, allowing users to input their movie preferences and receive recommendations.
 - **Logging**: Implements logging using Python's built-in logging module for better debugging and monitoring.
 
+## Screenshots:
+![home](https://github.com/irfan-iiitr/mongodb-ai-vector-search/assets/123577873/890e7974-fac1-42b7-a26b-c36987e662c7)
+
+![small](https://github.com/irfan-iiitr/mongodb-ai-vector-search/assets/123577873/bb0d2af1-f978-49f4-8a2e-94684f94a1ad)
+![medium](https://github.com/irfan-iiitr/mongodb-ai-vector-search/assets/123577873/da6808e2-338a-4a2e-a6a9-4f11a5d426ea)
+![large](https://github.com/irfan-iiitr/mongodb-ai-vector-search/assets/123577873/140e0a19-3e5c-4a95-b800-42c7c19a9711)
+
+
 ## Setup
 
 - **Environment Setup**: Ensure you have Python installed. Install required dependencies using `pip install -r requirements.txt`.
